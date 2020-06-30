@@ -2,11 +2,11 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CspHtmlWebpackPlugin = require("csp-html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const nodeExternals = require("webpack-node-externals");
+// const nodeExternals = require("webpack-node-externals");
 
 module.exports = {
   target: "electron-renderer",
-  externals: [nodeExternals()],
+  // externals: [nodeExternals()],
   entry: ["./src/index.js"],
   output: {
     path: path.resolve(__dirname, "dist"),

@@ -1,9 +1,9 @@
 // import { Router } from "express";
-import { ipcRenderer } from "electron";
-import { remote } from "electron";
+// import { ipcRenderer, remote } from "electron";
+// import { remote } from "electron";
+import { Metadata } from "@grpc/grpc-js";
 import * as store from "../store";
 import * as actions from "../actions/actions";
-import { Metadata } from "@grpc/grpc-js";
 
 const async = require("async");
 const fs = require("fs");

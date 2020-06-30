@@ -1,7 +1,7 @@
 import React from "react";
 import historyController from "../../controllers/historyController";
 
-const { dialog } = require("electron").remote;
+// const { dialog } = require("electron").remote;
 
 const ClearHistoryBtn = (props) => {
   const handleClick = () => {

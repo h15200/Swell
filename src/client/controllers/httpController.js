@@ -1,11 +1,10 @@
 import * as store from "../store";
 import * as actions from "../actions/actions";
 
+// const { session } = require("electron").remote;
+// const { ipcRenderer } = require("electron");
 const fetch2 = require("node-fetch");
-const { session } = require("electron").remote;
-const http2 = require("http2");
-
-const { ipcRenderer } = require("electron");
+// const http2 = require("http2");
 
 // parsing through cookies
 const setCookie = require("set-cookie-parser");

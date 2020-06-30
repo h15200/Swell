@@ -22,7 +22,8 @@
     "email": "swell@getswell.io",
     "url": "http://www.getswell.io"
   },
-  "contributors": [{
+  "contributors": [
+    {
       "name": "Kyle Combs",
       "email": "combskyle@gmail.com",
       "url": "https://github.com/texpatnyc"
@@ -128,7 +129,8 @@
       "createDesktopShortcut": "always"
     },
     "dmg": {
-      "contents": [{
+      "contents": [
+        {
           "x": 130,
           "y": 220
         },
@@ -198,6 +200,7 @@
     "electron-updater": "^4.3.1",
     "es6-promise": "^4.2.8",
     "express": "^4.17.1",
+    "google-auth-library": "^6.0.2",
     "graphql": "^14.6.0",
     "graphql-tag": "^2.10.3",
     "highland": "^2.13.5",
